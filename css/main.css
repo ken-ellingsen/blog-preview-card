@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 html {
@@ -23,6 +24,45 @@ main {
     height: 501px;
     border-radius: 20px;
     padding: 24px;
+}
+
+img {
+    width: 279px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#info {
+    margin: 24px 0;
+    width: 279px;
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#tag {
+    width: 73px;
+    height: 26px;
+    align-content: center;
+    text-align: center;
+}
+
+#author {
+    width: 129px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#author img {
+    width: 32px;
+    height: 32px;
+}
+
+#author p{
+    align-content: center;
 }
 
 .attribution {
